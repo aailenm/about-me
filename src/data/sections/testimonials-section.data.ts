@@ -11,7 +11,7 @@ const testimonialsSectionData = {
   },
   testimonials: [
     {
-      image: import('@/assets/logos/10pines-logo.png'),
+      image: import('@/assets/testimonials/testimonial-1.jpeg'),
       author: 'TDD & Advanced TDD',
       relation: '10Pines',
       content:
@@ -19,7 +19,7 @@ const testimonialsSectionData = {
       links: [website({ url: 'https://academia.10pines.com/courses/198-test-driven-development-avanzado' })],
     },
     {
-      image: import('@/assets/logos/10pines-logo.png'),
+      image: import('@/assets/testimonials/testimonial-1.jpeg'),
       author: 'Design Patterns II',
       relation: '10Pines',
       content:
@@ -27,7 +27,7 @@ const testimonialsSectionData = {
       links: [website({ url: 'https://academia.10pines.com/courses/199-diseno-avanzado-de-software-con-objetos-ii' })],
     },
     {
-      image: import('@/assets/logos/10pines-logo.png'),
+      image: import('@/assets/testimonials/testimonial-1.jpeg'),
       author: 'Design Patterns I',
       relation: '10Pines',
       content:
@@ -35,7 +35,7 @@ const testimonialsSectionData = {
       links: [website({ url: 'https://academia.10pines.com/courses/197-diseno-avanzado-de-software-con-objetos-i' })],
     },
     {
-      image: import('@/assets/logos/educacion-it-logo.jpeg'),
+      image: import('@/assets/testimonials/testimonial-1.jpeg'),
       author: 'Ethical Hacking',
       relation: 'EducacionIT',
       content:
