@@ -11,9 +11,8 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+    title: 'Ailen Muñoz - Semi Senior Full Stack Developer',
+    description: `Hey, my name is Ailen and I'm a software engineer. Come and see what I do for a life`,
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {

@@ -1,6 +1,6 @@
 import type { MainSection } from '@/types/sections/main-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, linkedin, twitter } from '../helpers/links';
+import { github, linkedin } from '../helpers/links';
 
 const mainSectionData = {
   config: {
@@ -9,31 +9,32 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpeg'),
-  fullName: 'Mark Freeman',
-  role: 'Senior React Developer',
+  image: import('@/assets/me.jpeg'),
+  fullName: 'Ailén Magalí Muñoz',
+  role: 'Semi-Senior Full Stack Developer',
   details: [
-    { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com', url: 'mailto:mark.freeman.dev@gmail.com' },
-    { label: 'From', value: 'Warsaw, Poland' },
+    { label: 'Phone', value: '+54 11 6593 2228', url: 'tel:+541165932228' },
+    { label: 'Email', value: 'ailenmunozz@gmail.com', url: 'mailto:ailenmunozz@gmail.com' },
+    { label: 'From', value: 'Buenos Aires, Argentina' },
     { label: 'Salary range', value: '18 000 - 25 000 PLN' },
   ],
   pdfDetails: [
-    { label: 'Phone', value: '605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com' },
-    { label: 'LinkedIn', value: '/in/mark-freeman', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/mark-freeman', url: 'https://github.com' },
-    { label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
+    { label: 'Phone', value: '+54 11 6593 2228' },
+    { label: 'Email', value: 'ailenmunozz@gmail.com' },
+    { label: 'LinkedIn', value: '/in/ailenm', url: 'https://www.linkedin.com' },
+    { label: 'GitHub', value: '/aailenm', url: 'https://github.com' },
+    { label: 'Website', value: 'ailenmunoz.com', url: '/', fullRow: true },
   ],
   description:
-    'Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. In sodales ac dui at *vestibulum*. In condimentum metus id dui tincidunt, in blandit mi [vehicula](/). Nulla lacinia, erat sit amet elementum vulputate, lectus mauris volutpat mi, vitae accumsan metus elit ut nunc. Vestibulum lacinia enim eget eros fermentum scelerisque. Proin augue leo, posuere ut imperdiet vitae, fermentum eu ipsum. Sed sed neque sagittis, posuere urna nec, commodo leo. Pellentesque posuere justo vitae massa volutpat maximus.',
-  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }, { name: 'Working on side project' }],
+    `I'm a software engineer since 2019, dedicated to full-stack development. However, I'm most focused on the backend with strength in integrations with third-party applications on NodeJS.
+    My main motivators are projects with social/environmental impact, cooperative teamwork, and end-to-end project management (from technical planning to releasing)`,
+  tags: [{ name: 'Open for freelance' }, { name: 'Open for relocation (UE Passport)' }, { name: 'Open to work remotely' }],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
-    downloadedFileName: 'CV-Mark_Freeman.pdf',
+    downloadedFileName: 'CV-Ailen_Munoz.pdf',
   },
-  links: [facebook({ url: '#' }), github({ url: '#' }), linkedin({ url: '#' }), twitter({ url: '#' })],
+  links: [github({ url: 'https://github.com/aailenm' }), linkedin({ url: 'https://www.linkedin.com/in/ailenm' })],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;

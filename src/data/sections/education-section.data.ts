@@ -11,20 +11,20 @@ const educationSectionData = {
   },
   diplomas: [
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
-      dates: [new Date('2014.10'), new Date('2016.07')],
+      title: 'Software Engineer',
+      institution: 'National Tecnological University',
+      image: import('@/assets/logos/utn-logo.jpg'),
+      dates: [new Date('2014.03'), new Date('2019.08')],
       description: 'Master degree. Specialization in software development.',
-      links: [website({ url: '#' })],
+      links: [website({ url: 'https://www4.frm.utn.edu.ar/ingenieria-en-sistemas-informacion/' })],
     },
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
-      dates: [new Date('2011.10'), new Date('2014.07')],
-      description: "Bachelor's degree. Specialization in application development.",
-      links: [website({ url: '#' })],
+      title: 'High School in Human Science',
+      institution: 'Holy Face Institute',
+      image: import('@/assets/logos/santa-faz-logo.png'),
+      dates: [new Date('2008.03'), new Date('2013.12')],
+      description: "Bachelor's degree. Specialization in human science.",
+      links: [website({ url: '#' })]
     },
   ],
 } as const satisfies ReadonlyDeep<EducationSection>;

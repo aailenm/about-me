@@ -164,3 +164,94 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+export const node = createSkillFactory({
+  name: 'Node.js',
+  icon: 'simple-icons:nodejs',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});
+
+export const docker = createSkillFactory({
+  name: 'Docker',
+  icon: 'simple-icons:docker',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});
+
+export const graphQl = createSkillFactory({
+  name: 'GraphQL',
+  icon: 'simple-icons:graphql',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});
+
+export const relay = createSkillFactory({
+  name: 'Relay',
+  icon: 'simple-icons:relay',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});
+       
+export const aws = createSkillFactory({
+  name: 'AWS',
+  icon: 'simple-icons:aws',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});       
+
+export const redux = createSkillFactory({
+  name: 'Redux',
+  icon: 'simple-icons:redux',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});  
+
+export const sqitch = createSkillFactory({
+  name: 'Sqitch',
+  icon: 'simple-icons:sqitch',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});  
+       
+export const angularJs = createSkillFactory({
+  name: 'AngularJS',
+  icon: 'simple-icons:angularjs',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});  
+
+export const java = createSkillFactory({
+  name: 'Java',
+  icon: 'simple-icons:java',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});  
+
+export const hibernate = createSkillFactory({
+  name: 'Hibernate',
+  icon: 'simple-icons:hibernate',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});  
+
+export const sequelize = createSkillFactory({
+  name: 'Sequelize',
+  icon: 'simple-icons:sequelize',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});  
+
+export const express = createSkillFactory({
+  name: 'Express',
+  icon: 'simple-icons:expressjs',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});  
+
+export const python = createSkillFactory({
+  name: 'Python',
+  icon: 'simple-icons:python',
+  iconColor: '#026e00',
+  url: 'https://nodejs.org/',
+});  
