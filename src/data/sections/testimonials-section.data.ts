@@ -35,7 +35,7 @@ const testimonialsSectionData = {
       links: [website({ url: 'https://academia.10pines.com/courses/197-diseno-avanzado-de-software-con-objetos-i' })],
     },
     {
-      image: import('@/assets/testimonials/testimonial-1.jpeg'),
+      image: import('@/assets/testimonials/educacion-it-logo.jpeg'),
       author: 'Ethical Hacking',
       relation: 'EducacionIT',
       content:
