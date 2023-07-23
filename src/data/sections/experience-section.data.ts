@@ -1,16 +1,8 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website, } from '../helpers/links';
+import { github, linkedin, twitter, website, } from '../helpers/links';
 import {
-  chakraUi,
-  eslint,
-  firebase,
-  nextJs,
-  nx,
-  pnpm,
   react,
-  reactQuery,
-  tailwindCss,
   typescript,
   vue,
   python,
@@ -24,6 +16,14 @@ import {
   redux,
   angularJs,
   java,
+  docker,
+  javascript,
+  pentaho,
+  sqlServer,
+  sisspack,
+  powerbi,
+  ember,
+  hibernate,
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -46,7 +46,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), node(), postgreSql()],
+        tags: [react(), node(), postgreSql(), docker()],
       },
       links: [website({ url: 'https://www.grow.com/' }), linkedin({ url: 'https://www.linkedin.com/company/grow-dashboards/' })],
     },
@@ -89,28 +89,7 @@ const experienceSectionData = {
         title: 'Technologies',
         tags: [react(), redux(), angularJs(), java(), aws()],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
-    },
-    {
-      role: 'Full-stack developer',
-      company: 'Savorease',
-      image: import('@/assets/logos/savorease-logo.jpeg'),
-      dates: [new Date('2021-11'), null],
-      description: `
-      Savorease Therapeutic Foods is a food manufacturer start-up of savory crackers for people with dysphagia, feeding pediatric disorders, and babies transitioning to solid foods. The projects I work on involve the following tasks:  
-      - E-commerce development and mantainance (on Shopify)
-      - Email automations
-      - Marketing campaigns 
-      - Community Manager
-      - Ad campaigns
-      
-      Tools: Google Ads, Meta Ads, Instagram, Facebook, LinkedIn, Twitter, Canva, Shopify, Freshworks, Pagefly
-      `,
-      tagsList: {
-        title: 'Technologies',
-        tags: [],
-      },
-      links: [website({ url: 'https://savorease.com/' }), linkedin({ url: 'https://www.linkedin.com/company/savorease/' })],
+      links: [],
     },
     {
       role: 'Trainee full stack developer',
@@ -118,11 +97,15 @@ const experienceSectionData = {
       image: import('@/assets/logos/10Pines-logo.png'),
       dates: [new Date('2018-07'), new Date('2022-02')],
       description: `
-      10Pines is a company that provides software development services. Given its horizontal organizational structure, I worked for external clients as well as internal tools and internal management areas of the company. You'll find the projects I worked below
+      10Pines is a company that provides software development services. Given its horizontal organizational structure, I worked for external clients as well as internal tools and internal management areas of the company. During the first three months, I worked on a internship and contributed to an internal tool: 
+      Roots votation: An application that is used to propose, vote, and get action items about 10Pines decision topics. Main features I worked on: 
+      - Application redesign
+      - Topics reproposal and classification
+      - Email notifications
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [ember(), java(), hibernate(), postgreSql()],
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },
@@ -132,18 +115,18 @@ const experienceSectionData = {
       image: import('@/assets/logos/pj-logo.jpg'),
       dates: [new Date('2017-08'), new Date('2018-06')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+      A system used to clean and analyze social media and telephone data
+      Tasks
+      - Reports about timing and workflow of the area
+      - Macros y ETLs to extract and clean data provided for external services
+      - Request, process, and analysis of provided data 
+      Technologies: SSIS Package, Tools: Maltego, Excel, Microsoft SQL Server, PowerBI.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [sisspack(), sqlServer(), powerbi()],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [],
     },
     {
       role: 'BI Analyst and developer',
@@ -151,18 +134,16 @@ const experienceSectionData = {
       image: import('@/assets/logos/utn-logo.jpg'),
       dates: [new Date('2016-09'), new Date('2019-04')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+      University internal area
+      Tasks
+      - Reports about aspirants, students, deserter and graduated people
+      - Reports about timing and workflow on solving different types of university internal paperwork.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [javascript(), sqlServer(), pentaho(), sisspack()],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [],
     },
     {
       role: 'CX Support',

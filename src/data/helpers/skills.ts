@@ -18,27 +18,6 @@ skill({ description: '...' }) — returns skill with a description displayed whe
 
 */
 
-export const apolloGraphql = createSkillFactory({
-  name: 'Apollo GraphQL',
-  icon: 'simple-icons:apollographql',
-  iconColor: '#311C87',
-  url: 'https://www.apollographql.com/',
-});
-
-export const astro = createSkillFactory({
-  name: 'Astro',
-  icon: 'simple-icons:astro',
-  iconColor: '#FF5D01',
-  url: 'https://astro.build/',
-});
-
-export const chakraUi = createSkillFactory({
-  name: 'Chakra UI',
-  icon: 'simple-icons:chakraui',
-  iconColor: '#319795',
-  url: 'https://chakra-ui.com/',
-});
-
 export const cypress = createSkillFactory({
   name: 'Cypress',
   icon: 'simple-icons:cypress',
@@ -53,13 +32,6 @@ export const eslint = createSkillFactory({
   url: 'https://eslint.org/',
 });
 
-export const firebase = createSkillFactory({
-  name: 'Firebase',
-  icon: 'simple-icons:firebase',
-  iconColor: '#FFCA28',
-  url: 'https://firebase.google.com/',
-});
-
 export const jest = createSkillFactory({
   name: 'Jest',
   icon: 'simple-icons:jest',
@@ -72,34 +44,6 @@ export const mongoDb = createSkillFactory({
   icon: 'simple-icons:mongodb',
   iconColor: '#47A248',
   url: 'https://www.mongodb.com/',
-});
-
-export const nestJs = createSkillFactory({
-  name: 'NestJS',
-  icon: 'simple-icons:nestjs',
-  iconColor: '#E0234E',
-  url: 'https://nestjs.com/',
-});
-
-export const nextJs = createSkillFactory({
-  name: 'Next.js',
-  icon: 'simple-icons:nextdotjs',
-  iconColor: '#000000',
-  url: 'https://nextjs.org/',
-});
-
-export const nx = createSkillFactory({
-  name: 'Nx',
-  icon: 'simple-icons:nx',
-  iconColor: '#143055',
-  url: 'https://nx.dev/',
-});
-
-export const pnpm = createSkillFactory({
-  name: 'pnpm',
-  icon: 'simple-icons:pnpm',
-  iconColor: '#F69220',
-  url: 'https://pnpm.io/',
 });
 
 export const postgreSql = createSkillFactory({
@@ -123,32 +67,11 @@ export const react = createSkillFactory({
   url: 'https://reactjs.org/',
 });
 
-export const reactQuery = createSkillFactory({
-  name: 'React Query',
-  icon: 'simple-icons:reactquery',
-  iconColor: '#FF4154',
-  url: 'https://tanstack.com/query',
-});
-
 export const sass = createSkillFactory({
   name: 'SASS',
   icon: 'simple-icons:sass',
   iconColor: '#CC6699',
   url: 'https://sass-lang.com/',
-});
-
-export const supabase = createSkillFactory({
-  name: 'Supabase',
-  icon: 'simple-icons:supabase',
-  iconColor: '#3ECF8E',
-  url: 'https://supabase.io/',
-});
-
-export const tailwindCss = createSkillFactory({
-  name: 'Tailwind CSS',
-  icon: 'simple-icons:tailwindcss',
-  iconColor: '#06B6D4',
-  url: 'https://tailwindcss.com/',
 });
 
 export const typescript = createSkillFactory({
@@ -175,83 +98,191 @@ export const node = createSkillFactory({
 export const docker = createSkillFactory({
   name: 'Docker',
   icon: 'simple-icons:docker',
-  iconColor: '#026e00',
+  iconColor: '#003f8c',
   url: 'https://nodejs.org/',
 });
 
 export const graphQl = createSkillFactory({
   name: 'GraphQL',
   icon: 'simple-icons:graphql',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
+  iconColor: '#f6009c',
+  url: 'https://graphql.org/',
 });
 
 export const relay = createSkillFactory({
   name: 'Relay',
   icon: 'simple-icons:relay',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
+  iconColor: '#f26b00',
+  url: 'https://relay.dev/',
 });
        
 export const aws = createSkillFactory({
   name: 'AWS',
-  icon: 'simple-icons:aws',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
+  icon: 'simple-icons:amazonaws',
+  iconColor: '#232F3E',
+  url: 'https://aws.amazon.com/es/',
 });       
 
 export const redux = createSkillFactory({
   name: 'Redux',
   icon: 'simple-icons:redux',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
+  iconColor: '#764ABC',
+  url: 'https://redux.js.org/',
 });  
-
-export const sqitch = createSkillFactory({
-  name: 'Sqitch',
-  icon: 'simple-icons:sqitch',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
-});  
-       
+   
 export const angularJs = createSkillFactory({
   name: 'AngularJS',
   icon: 'simple-icons:angularjs',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
+  iconColor: '#E23237',
+  url: 'https://angularjs.org/',
 });  
 
 export const java = createSkillFactory({
   name: 'Java',
   icon: 'simple-icons:java',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
+  iconColor: '#3a75b0',
+  url: 'https://www.java.com/es/',
 });  
 
 export const hibernate = createSkillFactory({
   name: 'Hibernate',
   icon: 'simple-icons:hibernate',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
+  iconColor: '#59666C',
+  url: 'https://hibernate.org/',
 });  
 
 export const sequelize = createSkillFactory({
   name: 'Sequelize',
   icon: 'simple-icons:sequelize',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
+  iconColor: '#52B0E7',
+  url: 'https://sequelize.org/',
 });  
 
 export const express = createSkillFactory({
   name: 'Express',
-  icon: 'simple-icons:expressjs',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
+  icon: 'simple-icons:express',
+  iconColor: '#000000',
+  url: 'https://expressjs.com/',
 });  
 
 export const python = createSkillFactory({
   name: 'Python',
   icon: 'simple-icons:python',
-  iconColor: '#026e00',
-  url: 'https://nodejs.org/',
+  iconColor: '#3776AB',
+  url: 'https://www.python.org/',
 });  
+
+
+/** Tools */
+
+export const datagrip = createSkillFactory({
+  name: 'DataGrip',
+  icon: 'simple-icons:datagrip',
+  iconColor: '#000000',
+  url: 'https://www.jetbrains.com/datagrip/',
+});  
+
+export const intellij = createSkillFactory({
+  name: 'IntelliJ',
+  icon: 'simple-icons:intellij',
+  iconColor: '#000000',
+  url: 'https://www.jetbrains.com/datagrip/',
+});  
+
+export const vscode = createSkillFactory({
+  name: 'VS Code',
+  icon: 'simple-icons:visualstudiocode',
+  iconColor: '#007ACC',
+  url: 'https://code.visualstudio.com/',
+});  
+
+export const datadog = createSkillFactory({
+  name: 'Datadog',
+  icon: 'simple-icons:datadog',
+  iconColor: '#632CA6',
+  url: 'https://www.datadoghq.com/',
+});  
+
+export const retool = createSkillFactory({
+  name: 'Retool',
+  icon: 'simple-icons:retool',
+  iconColor: '#3776AB',
+  url: 'https://retool.com/',
+});  
+
+export const sisspack = createSkillFactory({
+  name: 'SSIS',
+  icon: 'simple-icons:ssis',
+  iconColor: '#3776AB',
+  url: 'https://learn.microsoft.com/en-us/sql/integration-services/integration-services-ssis-projects-and-solutions?view=sql-server-ver16',
+});  
+
+export const localstack = createSkillFactory({
+  name: 'LocalStack',
+  icon: 'simple-icons:localstack',
+  iconColor: '#3776AB',
+  url: 'https://localstack.cloud/',
+});  
+
+export const jira = createSkillFactory({
+  name: 'Jira',
+  icon: 'simple-icons:jira',
+  iconColor: '#0052CC',
+  url: 'https://www.atlassian.com/software/jira',
+});  
+
+export const heroku = createSkillFactory({
+  name: 'Heroku',
+  icon: 'simple-icons:heroku',
+  iconColor: '#430098',
+  url: 'https://dashboard.heroku.com/',
+});  
+
+export const trello = createSkillFactory({
+  name: 'Trello',
+  icon: 'simple-icons:trello',
+  iconColor: '#0052CC',
+  url: 'www.trello.com',
+});  
+
+export const shopify = createSkillFactory({
+  name: 'Shopify',
+  icon: 'simple-icons:shopify',
+  iconColor: '#7AB55C',
+  url: 'www.shopify.com',
+});  
+
+export const javascript = createSkillFactory({
+  name: 'Javascript',
+  icon: 'simple-icons:javascript',
+  iconColor: '#F7DF1E',
+  url: 'https://lenguajejs.com/javascript/',
+});  
+
+export const pentaho = createSkillFactory({
+  name: 'Pentaho',
+  icon: 'simple-icons:pentaho',
+  iconColor: '#F7DF1E',
+  url: 'www.pentaho.com',
+}); 
+
+export const sqlServer = createSkillFactory({
+  name: 'SQL Server',
+  icon: 'simple-icons:microsoftsqlserver',
+  iconColor: '#CC2927',
+  url: 'www.pentaho.com',
+}); 
+
+export const powerbi = createSkillFactory({
+  name: 'PowerBI',
+  icon: 'simple-icons:powerbi',
+  iconColor: '#F2C811',
+  url: 'www.pentaho.com',
+}); 
+
+export const ember = createSkillFactory({
+  name: 'Ember.js',
+  icon: 'simple-icons:emberdotjs',
+  iconColor: '#E04E39',
+  url: 'https://emberjs.com/',
+}); 

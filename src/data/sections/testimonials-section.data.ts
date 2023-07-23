@@ -1,6 +1,6 @@
 import type { TestimonialsSection } from '@/types/sections/testimonials-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { github, linkedin, website } from '../helpers/links';
+import { website } from '../helpers/links';
 
 const testimonialsSectionData = {
   config: {
@@ -11,28 +11,36 @@ const testimonialsSectionData = {
   },
   testimonials: [
     {
-      image: import('@/assets/testimonials/testimonial-1.jpeg'),
+      image: import('@/assets/logos/10pines-logo.png'),
       author: 'TDD & Advanced TDD',
       relation: '10Pines',
       content:
-        'In nec mattis sem. Morbi purus lorem, euismod ac varius at, aliquet vitae augue. Pellentesque ut facilisis felis. In sed dui blandit, aliquet odio eu, elementum leo. In facilisis dapibus tortor ac volutpat. Cras cursus nec odio maximus elementum.',
-      links: [github({ url: '#' }), linkedin({ url: '#' })],
+        'March 2020 - April 2020',
+      links: [website({ url: 'https://academia.10pines.com/courses/198-test-driven-development-avanzado' })],
     },
     {
-      image: import('@/assets/testimonials/testimonial-2.jpeg'),
-      author: 'Basic Object Patterns & Advanced Object Patterns',
+      image: import('@/assets/logos/10pines-logo.png'),
+      author: 'Design Patterns II',
       relation: '10Pines',
       content:
-        'Praesent nec congue elit. Vestibulum lobortis congue ipsum, a gravida mi tempus ac. Mauris aliquet purus nibh, vel varius turpis tempus non. Nullam eget ultricies orci. Quisque nulla ante, auctor eget varius ac, imperdiet nec magna.',
-      links: [linkedin({ url: '#' })],
+        'October 2019',
+      links: [website({ url: 'https://academia.10pines.com/courses/199-diseno-avanzado-de-software-con-objetos-ii' })],
     },
     {
-      image: import('@/assets/testimonials/testimonial-3.jpeg'),
+      image: import('@/assets/logos/10pines-logo.png'),
+      author: 'Design Patterns I',
+      relation: '10Pines',
+      content:
+        'August 2019',
+      links: [website({ url: 'https://academia.10pines.com/courses/197-diseno-avanzado-de-software-con-objetos-i' })],
+    },
+    {
+      image: import('@/assets/logos/educacion-it-logo.jpeg'),
       author: 'Ethical Hacking',
       relation: 'EducacionIT',
       content:
-        'Mauris tincidunt at purus vehicula porta. Mauris eget mollis turpis. Sed iaculis rutrum pharetra. Vivamus risus quam, suscipit et semper ut, aliquet ut tellus. Donec quis auctor nunc.',
-      links: [github({ url: '#' }), website({ url: '#' })],
+        'March 2018',
+      links: [website({ url: 'https://www.educacionit.com/curso-de-ethical-hacking' })],
     },
   ],
 } as const satisfies ReadonlyDeep<TestimonialsSection>;
