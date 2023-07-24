@@ -3,9 +3,9 @@ import type { ReadonlyDeep } from 'type-fest';
 
 const favoritesSectionData = {
   config: {
-    title: 'My favorites',
-    slug: 'favorites',
-    icon: 'fa6-solid:star',
+    title: 'Testimonios',
+    slug: 'testimonios',
+    icon: 'fa6-solid:comment',
     visible: false,
   },
   books: {
