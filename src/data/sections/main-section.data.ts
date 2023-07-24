@@ -16,7 +16,6 @@ const mainSectionData = {
     { label: 'Phone', value: '+54 11 6593 2228', url: 'tel:+541165932228' },
     { label: 'Email', value: 'ailenmunozz@gmail.com', url: 'mailto:ailenmunozz@gmail.com' },
     { label: 'From', value: 'Buenos Aires, Argentina' },
-    { label: 'Salary range', value: '18 000 - 25 000 PLN' },
   ],
   pdfDetails: [
     { label: 'Phone', value: '+54 11 6593 2228' },
@@ -26,8 +25,7 @@ const mainSectionData = {
     { label: 'Website', value: 'ailenmunoz.com', url: '/', fullRow: true },
   ],
   description:
-    `I'm a software engineer since 2019, dedicated to full-stack development. However, I'm most focused on the backend with strength in integrations with third-party applications on NodeJS.
-    My main motivators are projects with social/environmental impact, cooperative teamwork, and end-to-end project management (from technical planning to releasing)`,
+    `I am a software engineer, graduated in 2019, dedicated to full-stack development with a specialization in backend integrations with third-party systems using Node.js. My primary motivators are projects with a social/environmental impact, when possible, fostering cooperative teamwork, and overseeing end-to-end project management - from technical planning to release.`,
   tags: [{ name: 'Open for freelance' }, { name: 'Open for relocation (UE Passport)' }, { name: 'Open to work remotely' }],
   action: {
     label: 'Download CV',

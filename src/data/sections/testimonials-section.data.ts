@@ -6,7 +6,7 @@ const testimonialsSectionData = {
   config: {
     title: 'Trainings',
     slug: 'trainings',
-    icon: 'fa6-solid:comment',
+    icon: 'fa6-solid:book-open',
     visible: true,
   },
   testimonials: [
