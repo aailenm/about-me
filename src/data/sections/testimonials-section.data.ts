@@ -4,7 +4,7 @@ import { website } from '../helpers/links';
 
 const testimonialsSectionData = {
   config: {
-    title: 'Trainings',
+    title: 'Trainings & Courses',
     slug: 'trainings',
     icon: 'fa6-solid:book-open',
     visible: true,

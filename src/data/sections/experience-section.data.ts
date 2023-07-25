@@ -35,7 +35,7 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Semi-Senior Full Stack Developer',
+      role: 'Senior Full Stack Developer',
       company: 'Grow BI',
       image: import('@/assets/logos/grow-logo.jpeg'),
       dates: [new Date('2022-03'), new Date('2022-09')],
@@ -51,7 +51,7 @@ const experienceSectionData = {
       links: [website({ url: 'https://www.grow.com/' }), linkedin({ url: 'https://www.linkedin.com/company/grow-dashboards/' })],
     },
     {
-      role: 'Semi-Senior Full Stack Developer',
+      role: 'Senior Full Stack Developer',
       company: 'Lattice HR (as a 10Pines contractor)',
       image: import('@/assets/logos/lattice-logo.png'),
       dates: [new Date('2019-12'), new Date('2022-03')],
@@ -90,12 +90,13 @@ const experienceSectionData = {
       links: [],
     },
     {
-      role: 'Trainee Full Stack Developer',
+      role: 'Full Stack Developer',
       company: '10Pines',
       image: import('@/assets/logos/10Pines-logo.png'),
       dates: [new Date('2018-07'), new Date('2018-10')],
       description: `
-      10Pines is a company that provides software development services. Due to its horizontal organizational structure, I had the opportunity to work with both external clients and internal tools, contributing to various management areas of the company, such as environment impact and recruiting. During the first three months, I participated in an internship and made contributions to an internal tool called 'Roots Votation.' This application is used to propose, vote, and manage action items related to 10Pines' decision topics. Main features I worked on include:
+      10Pines is a company that provides software development services. Due to its horizontal organizational structure, I had the opportunity to work with both external clients and internal tools, contributing to various management areas of the company, such as environment impact and recruiting. 
+      During the first three months, I participated in an internship and made contributions to an internal tool called 'Roots Votation.' This application is used to propose, vote, and manage action items related to 10Pines' decision topics. Main features I worked on include:
       - Application redesign
       - Topics reproposal and classification
       - Email notifications: Integration with Sendgrid

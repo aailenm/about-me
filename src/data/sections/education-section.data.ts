@@ -12,7 +12,7 @@ const educationSectionData = {
   diplomas: [
     {
       title: 'Software Engineer',
-      institution: 'National Tecnological University',
+      institution: 'National Technological University',
       image: import('@/assets/logos/utn-logo.jpg'),
       dates: [new Date('2014.03'), new Date('2019.08')],
       description: 'Master degree. Specialization in software development.',

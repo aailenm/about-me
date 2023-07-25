@@ -11,7 +11,7 @@ const mainSectionData = {
   },
   image: import('@/assets/me.jpeg'),
   fullName: 'Ailén Magalí Muñoz',
-  role: 'Semi-Senior Full Stack Developer',
+  role: 'Senior Full Stack Developer',
   details: [
     { label: 'Phone', value: '+54 11 6593 2228', url: 'tel:+541165932228' },
     { label: 'Email', value: 'ailenmunozz@gmail.com', url: 'mailto:ailenmunozz@gmail.com' },

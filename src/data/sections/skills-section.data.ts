@@ -37,7 +37,7 @@ const skillsSectionData = {
   },
   skillSets: [
     {
-      title: 'I already know',
+      title: `Technologies I've used`,
       skills: [
         react({
           level: 4,
@@ -66,11 +66,11 @@ const skillsSectionData = {
       ],
     },
     {
-      title: 'Tools I worked with',
+      title: `Tools I've worked with`,
       skills: [ datadog(), vscode(), retool(), jira(), heroku(), trello(), shopify()],
     },
     {
-      title: 'I speak',
+      title: 'Languages I manage',
       skills: [
         { icon: 'circle-flags:es-variant', name: 'Spanish - native' },
         { icon: 'circle-flags:us', name: 'English - C1' },
