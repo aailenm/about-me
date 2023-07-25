@@ -13,12 +13,10 @@ const mainSectionData = {
   fullName: 'Ailén Magalí Muñoz',
   role: 'Senior Full Stack Developer',
   details: [
-    { label: 'Phone', value: '+54 11 6593 2228', url: 'tel:+541165932228' },
     { label: 'Email', value: 'ailenmunozz@gmail.com', url: 'mailto:ailenmunozz@gmail.com' },
     { label: 'From', value: 'Buenos Aires, Argentina' },
   ],
   pdfDetails: [
-    { label: 'Phone', value: '+54 11 6593 2228' },
     { label: 'Email', value: 'ailenmunozz@gmail.com' },
     { label: 'LinkedIn', value: '/in/ailenm', url: 'https://www.linkedin.com' },
     { label: 'GitHub', value: '/aailenm', url: 'https://github.com' },
