@@ -1,8 +1,7 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { demo, github, mockups, repository, website } from '../helpers/links';
+import { demo, mockups, repository, website } from '../helpers/links';
 import {
-  heroku,
   jest,
   node,
   postgreSql,
@@ -23,6 +22,28 @@ const portfolioSectionData = {
     },
   },
   projects: [
+    {
+      name: 'beexploit',
+      image: import('@/assets/logos/beexploit-logo.png'),
+      dates: [new Date('2023-08'), null],
+      details: [
+        { label: 'Team size', value: '3 people' },
+        { label: 'My role', value: ['Front end Developer'] },
+        { label: 'Company', value: 'beexploit' },
+        { label: 'Category', value: ['Web app'] },
+      ],
+      pdfDetails: [
+        { label: 'Live web', value: 'https://dev.beexploit.com/', url: 'https://dev.beexploit.com/' },
+        { label: 'LinkedIn', value: 'https://www.linkedin.com/company/beexploit/', url: 'https://www.linkedin.com/company/beexploit/' },
+      ],
+      description:
+        `beexploit is a platform that offers pentesting and triaging as a service in an annual basis`,
+      tagsList: {
+        title: 'Technologies',
+        tags: [react()],
+      },
+      links: [website({ url: 'https://beexploit.com/' })],
+    },
     {
       name: 'Savorease Therapeutic Foods',
       image: import('@/assets/logos/savorease-logo.jpeg'),
@@ -52,28 +73,6 @@ const portfolioSectionData = {
         tags: [shopify()],
       },
       links: [website({ url: 'https://savorease.com/' })],
-    },
-    {
-      name: 'Andrea Terapeuta',
-      image: import('@/assets/logos/andrea-terapeuta-logo.png'),
-      dates: [new Date('2023-07'), null],
-      details: [
-        { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: ['Full stack Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app'] },
-      ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://andrea-terapeuta-q2ej.vercel.app/', url: 'https://andrea-terapeuta-q2ej.vercel.app/' },
-        { label: 'Repository', value: 'https://github.com/aailenm/andrea-terapeuta', url: 'https://github.com/aailenm/andrea-terapeuta' },
-      ],
-      description:
-        'Website to introduce quantum therapy',
-      tagsList: {
-        title: 'Technologies',
-        tags: [react(), node(), heroku()],
-      },
-      links: [website({ url: 'https://andrea-terapeuta-q2ej.vercel.app' }), github({ url: 'https://github.com/aailenm/andrea-terapeuta' })],
     },
     {
       name: 'Moke Boards',

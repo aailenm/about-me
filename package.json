@@ -1,6 +1,6 @@
 {
-  "name": "devscard",
-  "description": "Template for creating a comprehensive virtual CV for developers.",
+  "name": "ailenresume",
+  "description": "My personal CV",
   "version": "0.2.1",
   "private": true,
   "engines": {
