@@ -35,6 +35,20 @@ const experienceSectionData = {
   },
   jobs: [
     {
+      role: 'Senior Backend Developer',
+      company: 'Grow BI',
+      image: import('@/assets/logos/opengov-logo.jpeg'),
+      dates: [new Date('2023-11')],
+      description: `
+      OpenGov offers a cloud platform for United States governments. As part of the Permitting and Licensing team, I worked on the Payments platform, integrating our system with multiple payment providers to support different payment methods
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [react(), node(), jest(), postgreSql(), express(), docker()],
+      },
+      links: [website({ url: 'https://www.opengov.com/' }), linkedin({ url: 'https://www.linkedin.com/company/opengov/' })],
+    },
+    {
       role: 'Senior Full Stack Developer',
       company: 'Grow BI',
       image: import('@/assets/logos/grow-logo.jpeg'),
