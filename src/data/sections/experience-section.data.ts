@@ -42,7 +42,7 @@ const experienceSectionData = {
       role: 'Senior Software Engineer',
       company: 'Opengov',
       image: import('@/assets/logos/opengov-logo.png'),
-      dates: [new Date('2023-11')],
+      dates: [new Date('2023-11'), null],
       description: `
       OpenGov offers a cloud platform for United States governments. As part of the Permitting and Licensing team, I contributed to the following main features:
       - Developing and maintaining a microservices-based payments infrastructure, enabling online payments, partial payments, terminal payments, and refunds with different third party providers.

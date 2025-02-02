@@ -211,7 +211,7 @@ export const datagrip = createSkillFactory({
 
 export const intellij = createSkillFactory({
   name: 'IntelliJ',
-  icon: 'simple-icons:intellij',
+  icon: 'simple-icons:intellijidea',
   iconColor: '#000000',
   url: 'https://www.jetbrains.com/datagrip/',
 });
@@ -232,6 +232,7 @@ export const datadog = createSkillFactory({
 
 export const retool = createSkillFactory({
   name: 'Retool',
+  // @ts-expect-error
   icon: 'simple-icons:retool',
   iconColor: '#3776AB',
   url: 'https://retool.com/',
@@ -239,6 +240,7 @@ export const retool = createSkillFactory({
 
 export const sisspack = createSkillFactory({
   name: 'SSIS',
+  // @ts-expect-error
   icon: 'simple-icons:ssis',
   iconColor: '#3776AB',
   url: 'https://learn.microsoft.com/en-us/sql/integration-services/integration-services-ssis-projects-and-solutions?view=sql-server-ver16',
@@ -246,6 +248,7 @@ export const sisspack = createSkillFactory({
 
 export const localstack = createSkillFactory({
   name: 'LocalStack',
+  // @ts-expect-error
   icon: 'simple-icons:localstack',
   iconColor: '#3776AB',
   url: 'https://localstack.cloud/',
@@ -288,6 +291,7 @@ export const javascript = createSkillFactory({
 
 export const pentaho = createSkillFactory({
   name: 'Pentaho',
+  // @ts-expect-error
   icon: 'simple-icons:pentaho',
   iconColor: '#F7DF1E',
   url: 'www.pentaho.com',
