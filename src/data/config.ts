@@ -11,7 +11,7 @@ const config = {
     },
   },
   meta: {
-    title: 'Ailen Muñoz - Semi Senior Full Stack Developer',
+    title: 'Ailen Muñoz - Senior Full Stack Developer',
     description: `Hey, my name is Ailen and I'm a software engineer. Come and see what I do for a life`,
     faviconPath: '/src/assets/my-image.jpeg',
   },

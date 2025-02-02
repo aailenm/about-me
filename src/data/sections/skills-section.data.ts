@@ -25,7 +25,7 @@ import {
   jira,
   heroku,
   trello,
-  shopify
+  shopify,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -41,33 +41,34 @@ const skillsSectionData = {
       skills: [
         react({
           level: 4,
-                    }),
+        }),
         node({ level: 4 }),
         postgreSql({ level: 4 }),
         graphQl({ level: 4 }),
         express({ level: 4 }),
         typescript({
           level: 3,
-                  }),
-                  jest({level: 4 }),
-        
+        }),
+        jest({ level: 4 }),
+
         aws({ level: 3, description: 'Services: SQS, SNS, Lambdas, S3' }),
         redux({ level: 3 }),
         java({ level: 3 }),
         mongoDb({ level: 2 }),
         docker({ level: 2 }),
-        relay({ level: 2}), 
-        angularJs({ level: 2}),
-        hibernate({ level: 3}),
-        sequelize({level: 3}),
+        relay({ level: 2 }),
+        angularJs({ level: 2 }),
+        hibernate({ level: 3 }),
+        sequelize({ level: 3 }),
         prettier({ level: 5 }),
         eslint({
-          level: 4        }),
+          level: 4,
+        }),
       ],
     },
     {
       title: `Tools I've worked with`,
-      skills: [ datadog(), vscode(), retool(), jira(), heroku(), trello(), shopify()],
+      skills: [datadog(), vscode(), retool(), jira(), heroku(), trello(), shopify()],
     },
     {
       title: 'Languages I manage',

@@ -22,9 +22,12 @@ const mainSectionData = {
     { label: 'GitHub', value: '/aailenm', url: 'https://github.com' },
     { label: 'Website', value: 'ailenmunoz.com', url: '/', fullRow: true },
   ],
-  description:
-    `I am a software engineer, graduated in 2019, dedicated to full-stack development with a specialization in backend integrations with third-party systems using Node.js. My primary motivators are projects with a social/environmental impact, when possible, fostering cooperative teamwork, and overseeing end-to-end project management - from technical planning to release.`,
-  tags: [{ name: 'Open for freelance' }, { name: 'Open for relocation (UE Passport)' }, { name: 'Open to work remotely' }],
+  description: `I am a software engineer, graduated in 2019, dedicated to full-stack development with a specialization in backend integrations with third-party systems using Node.js. My primary motivators are projects with a social/environmental impact, when possible, fostering cooperative teamwork, and overseeing end-to-end project management - from technical planning to release.`,
+  tags: [
+    { name: 'Open for freelance' },
+    { name: 'Open for relocation (UE Passport)' },
+    { name: 'Open to work remotely' },
+  ],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',

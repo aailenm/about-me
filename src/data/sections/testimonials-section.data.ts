@@ -14,32 +14,28 @@ const testimonialsSectionData = {
       image: import('@/assets/testimonials/testimonial-1.jpeg'),
       author: 'TDD & Advanced TDD',
       relation: '10Pines',
-      content:
-        'March 2020 - April 2020',
+      content: 'March 2020 - April 2020',
       links: [website({ url: 'https://academia.10pines.com/courses/198-test-driven-development-avanzado' })],
     },
     {
       image: import('@/assets/testimonials/testimonial-1.jpeg'),
       author: 'Design Patterns II',
       relation: '10Pines',
-      content:
-        'October 2019',
+      content: 'October 2019',
       links: [website({ url: 'https://academia.10pines.com/courses/199-diseno-avanzado-de-software-con-objetos-ii' })],
     },
     {
       image: import('@/assets/testimonials/testimonial-1.jpeg'),
       author: 'Design Patterns I',
       relation: '10Pines',
-      content:
-        'August 2019',
+      content: 'August 2019',
       links: [website({ url: 'https://academia.10pines.com/courses/197-diseno-avanzado-de-software-con-objetos-i' })],
     },
     {
       image: import('@/assets/testimonials/educacion-it-logo.jpeg'),
       author: 'Ethical Hacking',
       relation: 'EducacionIT',
-      content:
-        'March 2018',
+      content: 'March 2018',
       links: [website({ url: 'https://www.educacionit.com/curso-de-ethical-hacking' })],
     },
   ],

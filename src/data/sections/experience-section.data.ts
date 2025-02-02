@@ -1,6 +1,6 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { github, linkedin, twitter, website, } from '../helpers/links';
+import { linkedin, website } from '../helpers/links';
 import {
   react,
   typescript,
@@ -24,6 +24,10 @@ import {
   ember,
   hibernate,
   express,
+  prisma,
+  grafana,
+  fastify,
+  redis,
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -35,18 +39,41 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior Backend Developer',
-      company: 'Grow BI',
-      image: import('@/assets/logos/opengov-logo.jpeg'),
+      role: 'Senior Software Engineer',
+      company: 'Opengov',
+      image: import('@/assets/logos/opengov-logo.png'),
       dates: [new Date('2023-11')],
       description: `
-      OpenGov offers a cloud platform for United States governments. As part of the Permitting and Licensing team, I worked on the Payments platform, integrating our system with multiple payment providers to support different payment methods
+      OpenGov offers a cloud platform for United States governments. As part of the Permitting and Licensing team, I contributed to the following main features:
+      - Developing and maintaining a microservices-based payments infrastructure, enabling online payments, partial payments, terminal payments, and refunds with different third party providers.
+      - Leading the migration from legacy SEPS architecture to the new PPF system, ensuring compatibility, stability, and performance improvements.
+      - Implementing GraphQL APIs with TypeScript and Prisma, optimizing performance using data loaders and efficient query patterns.
+      - Designing GraphQL policies and access control mechanisms to secure API interactions.
+      - Working with Ember.js and React in a monorepo setup, integrating frontend applications with backend services.
+      - Managing Grafana and Loki dashboards, creating alerts and visualizations to monitor service health and request throughput.
+      - Collaborating with teams to ensure seamless integrations with third-party payment processors and internal services.
+      - Troubleshooting CI/CD pipeline issues and improving SonarQube test coverage recognition in a Lerna-based monorepo.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), node(), jest(), postgreSql(), express(), docker()],
+        tags: [
+          react(),
+          node(),
+          ember(),
+          jest(),
+          docker(),
+          typescript(),
+          redis(),
+          prisma(),
+          graphQl(),
+          grafana(),
+          fastify(),
+        ],
       },
-      links: [website({ url: 'https://www.opengov.com/' }), linkedin({ url: 'https://www.linkedin.com/company/opengov/' })],
+      links: [
+        website({ url: 'https://www.opengov.com/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/opengov/' }),
+      ],
     },
     {
       role: 'Senior Full Stack Developer',
@@ -62,7 +89,10 @@ const experienceSectionData = {
         title: 'Technologies',
         tags: [react(), node(), jest(), postgreSql(), express(), docker()],
       },
-      links: [website({ url: 'https://www.grow.com/' }), linkedin({ url: 'https://www.linkedin.com/company/grow-dashboards/' })],
+      links: [
+        website({ url: 'https://www.grow.com/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/grow-dashboards/' }),
+      ],
     },
     {
       role: 'Senior Full Stack Developer',
@@ -83,7 +113,10 @@ const experienceSectionData = {
         title: 'Technologies',
         tags: [react(), relay(), graphQl(), node(), express(), typescript(), jest(), sequelize(), postgreSql(), aws()],
       },
-      links: [website({ url: 'https://lattice.com/' }), linkedin({ url: 'https://www.linkedin.com/company/lattice-hq/' })],
+      links: [
+        website({ url: 'https://lattice.com/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/lattice-hq/' }),
+      ],
     },
     {
       role: 'Junior Front End Developer',

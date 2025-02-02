@@ -1,14 +1,7 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { demo, mockups, repository, website } from '../helpers/links';
-import {
-  jest,
-  node,
-  postgreSql,
-  react,
-  redux,
-  shopify,
-} from '../helpers/skills';
+import { jest, node, postgreSql, react, redux, shopify } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -34,10 +27,13 @@ const portfolioSectionData = {
       ],
       pdfDetails: [
         { label: 'Live web', value: 'https://dev.beexploit.com/', url: 'https://dev.beexploit.com/' },
-        { label: 'LinkedIn', value: 'https://www.linkedin.com/company/beexploit/', url: 'https://www.linkedin.com/company/beexploit/' },
+        {
+          label: 'LinkedIn',
+          value: 'https://www.linkedin.com/company/beexploit/',
+          url: 'https://www.linkedin.com/company/beexploit/',
+        },
       ],
-      description:
-        `beexploit is a platform that offers pentesting and triaging as a service in an annual basis`,
+      description: `beexploit is a platform that offers pentesting and triaging as a service in an annual basis`,
       tagsList: {
         title: 'Technologies',
         tags: [react()],
@@ -56,17 +52,20 @@ const portfolioSectionData = {
       ],
       pdfDetails: [
         { label: 'Live web', value: 'https://savorease.com/', url: 'https://savorease.com/' },
-        { label: 'LinkedIn', value: 'https://www.linkedin.com/company/savorease/', url: 'https://www.linkedin.com/company/savorease/' },
+        {
+          label: 'LinkedIn',
+          value: 'https://www.linkedin.com/company/savorease/',
+          url: 'https://www.linkedin.com/company/savorease/',
+        },
       ],
-      description:
-        `Savorease Therapeutic Foods is a food manufacturer start-up specializing in savory crackers for people with dysphagia, feeding pediatric disorders, and babies transitioning to solid foods. The projects I work on involve the following tasks:
+      description: `Savorease Therapeutic Foods is a food manufacturer start-up specializing in savory crackers for people with dysphagia, feeding pediatric disorders, and babies transitioning to solid foods.
+        Tools: Google Ads, Meta Ads, Instagram, Facebook, LinkedIn, Twitter, Canva, Shopify, Freshworks, Pagefly
+        Main Tasks:
         - E-commerce development and maintenance (on Shopify)
         - Email automations
         - Marketing campaigns
         - Community Manager
         - Ad campaigns
-
-        Tools: Google Ads, Meta Ads, Instagram, Facebook, LinkedIn, Twitter, Canva, Shopify, Freshworks, Pagefly
   `,
       tagsList: {
         title: 'Technologies',
@@ -86,7 +85,11 @@ const portfolioSectionData = {
       ],
       pdfDetails: [
         { label: 'Demo', value: '', url: '#' },
-        { label: 'Repository', value: 'https://github.com/aailenm/moke-boards', url: 'https://github.com/aailenm/moke-boards' },
+        {
+          label: 'Repository',
+          value: 'https://github.com/aailenm/moke-boards',
+          url: 'https://github.com/aailenm/moke-boards',
+        },
       ],
       screenshots: [
         { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'First screenshot' },
@@ -97,7 +100,7 @@ const portfolioSectionData = {
         'A small website selling customized balance boards. The app allows customers to choose the shape, design, and extras to add to their purchase.',
       tagsList: {
         title: 'Technologies',
-        tags: [ react()],
+        tags: [react()],
       },
       links: [repository({ url: 'https://github.com/aailenm/moke-boards' }), demo({ url: '#' })],
     },
@@ -111,11 +114,8 @@ const portfolioSectionData = {
         { label: 'Company', value: '10Pines' },
         { label: 'Category', value: ['Mobile app', 'Web app'] },
       ],
-      pdfDetails: [
-        { label: 'Mockups', value: '', url: '#' },
-      ],
-      description:
-        `An internal tool designed for presenting topics, allowing participants to engage in discussions and reactions using their mobile or computer.
+      pdfDetails: [{ label: 'Mockups', value: '', url: '#' }],
+      description: `An internal tool designed for presenting topics, allowing participants to engage in discussions and reactions using their mobile or computer.
         Main features I worked on: 
         - Full-stack development for topic presentation, discussion rooms, and management, as well as reaction charts.
         - Implemented pipeline, deployment, and review apps.

@@ -24,7 +24,7 @@ const educationSectionData = {
       image: import('@/assets/logos/santa-faz-logo.png'),
       dates: [new Date('2008.03'), new Date('2013.12')],
       description: "Bachelor's degree. Specialization in human science.",
-      links: []
+      links: [],
     },
   ],
 } as const satisfies ReadonlyDeep<EducationSection>;
