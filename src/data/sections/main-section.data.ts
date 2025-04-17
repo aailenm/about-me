@@ -11,7 +11,7 @@ const mainSectionData = {
   },
   image: import('@/assets/me.jpeg'),
   fullName: 'Ailén Magalí Muñoz',
-  role: 'Senior Full Stack Developer',
+  role: 'Senior Software Engineer',
   details: [
     { label: 'Email', value: 'ailenmunozz@gmail.com', url: 'mailto:ailenmunozz@gmail.com' },
     { label: 'From', value: 'Buenos Aires, Argentina' },
@@ -22,12 +22,8 @@ const mainSectionData = {
     { label: 'GitHub', value: '/aailenm', url: 'https://github.com' },
     { label: 'Website', value: 'ailenmunoz.com', url: '/', fullRow: true },
   ],
-  description: `I am a software engineer, graduated in 2019, dedicated to full-stack development with a specialization in backend integrations with third-party systems using Node.js. My primary motivators are projects with a social/environmental impact, when possible, fostering cooperative teamwork, and overseeing end-to-end project management - from technical planning to release.`,
-  tags: [
-    { name: 'Open for freelance' },
-    { name: 'Open for relocation (UE Passport)' },
-    { name: 'Open to work remotely' },
-  ],
+  description: `I’m a Full Stack Software Engineer with strong experience in designing and building scalable web applications, backend integrations, and modern APIs. My background includes working across startups and mature product teams, consistently delivering high-impact solutions. I thrive in collaborative environments, enjoy solving real-world problems with clean code, and bring a product-oriented mindset to every team I join.`,
+  tags: [ ],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
