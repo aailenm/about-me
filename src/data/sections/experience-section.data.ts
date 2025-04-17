@@ -40,19 +40,15 @@ const experienceSectionData = {
   jobs: [
     {
       role: 'Senior Software Engineer',
-      company: 'Opengov',
+      company: 'OpenGov',
       image: import('@/assets/logos/opengov-logo.png'),
       dates: [new Date('2023-11'), null],
       description: `
-      OpenGov offers a cloud platform for United States governments. As part of the Permitting and Licensing team, I contributed to the following main features:
-      - Developing and maintaining a microservices-based payments infrastructure, enabling online payments, partial payments, terminal payments, and refunds with different third party providers.
-      - Leading the migration from legacy SEPS architecture to the new PPF system, ensuring compatibility, stability, and performance improvements.
-      - Implementing GraphQL APIs with TypeScript and Prisma, optimizing performance using data loaders and efficient query patterns.
-      - Designing GraphQL policies and access control mechanisms to secure API interactions.
-      - Working with Ember.js and React in a monorepo setup, integrating frontend applications with backend services.
-      - Managing Grafana and Loki dashboards, creating alerts and visualizations to monitor service health and request throughput.
-      - Collaborating with teams to ensure seamless integrations with third-party payment processors and internal services.
-      - Troubleshooting CI/CD pipeline issues and improving SonarQube test coverage recognition in a Lerna-based monorepo.
+      OpenGov offers a cloud platform for United States governments. As part of the Permitting and Licensing suite, I contributed to the following main features:
+      - Led a critical modernization of OpenGov’s internal payment platform, which processes ~8,000 transactions daily and generates ~$30,000 in daily revenue.
+      - Re-architected the system to make it extensible, enabling seamless integration with other product suites and multiple third-party payment providers.
+      - Migrated legacy services to a modular microservices architecture, improving maintainability and scalability.
+      - Collaborated across teams to ensure seamless integrations with third-party payment processors and internal services.
       `,
       tagsList: {
         title: 'Technologies',
@@ -102,8 +98,7 @@ const experienceSectionData = {
       description: `
       At Lattice, a people management platform focused on creating high-performing teams, I contributed to the following projects:
       - Re-architecture of "Demo & Trial accounts creation": Conducted research, planned, and implemented the re-architecture of the tool used for sales. This tool creates accounts with up-to-date data and charts for product demonstrations to potential customers.
-      - HRIS Integrations: Researched, planned, and implemented APIs to integrate with third-party platforms like Personio, Gusto, ADP, Rippling, and Zenefits. These integrations enabled the import of user data.
-      - Courier Integration & Migration: Consolidated all notifications to be sent through Courier, a platform used to send notifications through different channels.
+      - Researched, designed, and implemented APIs to connect with third-party platforms such as Personio, Gusto, ADP, Rippling, and Zenefits. These integrations imported ~10,000 users daily and enabled seamless onboarding for customers, contributing to a 30% increase in the company’s customer base.      - Courier Integration & Migration: Consolidated all notifications to be sent through Courier, a platform used to send notifications through different channels.
       - MS Teams Bot: Conducted research, planned, and implemented a bot to send notifications through MS Teams. The goal was to deliver updates on upcoming meetings, goals, or action items to every user within a company.
       - Notification Management: Developed a feature that allows admin users and end users to customize their notification channel preferences.
       - Slack: Migrated to the new version to ensure seamless continued delivery of Slack notifications.
