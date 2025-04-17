@@ -23,7 +23,7 @@ const mainSectionData = {
     { label: 'Website', value: 'ailenmunoz.com', url: '/', fullRow: true },
   ],
   description: `I’m a Full Stack Software Engineer with strong experience in designing and building scalable web applications, backend integrations, and modern APIs. My background includes working across startups and mature product teams, consistently delivering high-impact solutions. I thrive in collaborative environments, enjoy solving real-world problems with clean code, and bring a product-oriented mindset to every team I join.`,
-  tags: [ ],
+  tags: [],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
